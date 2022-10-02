@@ -1,0 +1,154 @@
+/* __navbar___ */
+
+#navbar {
+    color: white;
+    background-color: rgb(255, 0, 0);
+  
+
+
+}
+
+#navbarSupportedContent {
+    margin-left: 220px;
+}
+
+
+/* ____Section 1___ */
+#section1 {
+    background-image: url(./img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+/* background-size: cover;} */
+/* height: 100vh;
+    
+
+}
+#section1-p{
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+} */
+
+
+/* Secton 1____ */
+
+@media only screen and (min-width:990px) and (max-width:1326px) {
+    body {
+        /* background-color: aliceblue; */
+    }
+   
+
+    #navbarSupportedContent {
+        margin-left: 160px;
+    }
+
+    #secp {
+
+        /* margin-top: -35px; */
+        top: 189px;
+        padding-bottom: 70px;
+    }
+
+
+}
+
+@media only screen and (min-width:760px) and (max-width:990px) {
+    body {
+        /* background-color: aliceblue; */
+    }
+   
+    #secp {
+        font-size: 12px;
+        top: 189px;
+        padding-bottom: 50px;
+    }
+
+    #sech1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+}
+
+@media only screen and (min-width:410px) and (max-width:760px) {
+    body {
+        /* background-color: aliceblue; */
+    }
+
+    #secp {
+        font-size: 10px;
+        top: 189px;
+        padding-bottom: 50px;
+    }
+
+
+    #sech1 {
+        font-size: 12px;
+        font-weight: 900;
+        padding: 5px;
+    }
+
+}
+
+@media only screen and (min-width:150px) and (max-width:410px) {
+    body {
+        /* background-color: aliceblue; */
+    }
+.navbar-brand{
+    font-size: 15px;
+}
+    #secp {
+        font-size: 8px;
+        top: 189px;
+        padding-bottom: 50px;
+    }
+
+    #sech1 {
+        font-size: 8px;
+        font-weight: 700;
+        padding: 5px;
+    }
+
+}
+
+/* ______Section 3___ */
+#section3 {
+    background-image: url(./img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#par-card{
+    transition: all 0.2s linear;
+}
+
+#card:hover{
+    transform: translateY(-1rem);
+}
+
+#icons{
+    text-align: center;
+    margin-left: 120px;
+    width: 5rem;
+    height: 8rem;
+    background-color: gray;
+    border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    padding: 1.4rem 1.8rem;
+    position: relative;
+    animation: waterwav 3s linear infinite;
+}
+@keyframes waterwav{
+    0%{
+        border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    }
+    50%{
+        border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+    }
+    100%{
+        border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    }
+}
